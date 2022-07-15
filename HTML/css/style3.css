@@ -1,0 +1,92 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: Courier;
+}
+
+header{
+  background-image:url(../images/bg2.jpg);
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  
+}
+
+ul{
+  float: right;
+  list-style-type: none;
+  margin-top: 25px;
+  margin-right: 150px;
+
+}
+
+ul li{
+  display: inline-block;
+}
+
+ul li a{
+  text-decoration: none;
+  color: #fff;
+  padding: 5px 10px;
+  border: 1px solid transparent;
+  transition: 0.6s ease;
+}
+
+ul li a:hover{
+  background-color: #fff;
+  color: rgb(0, 0, 0);
+  
+}
+
+.active a{
+  background-color: #ffff;
+  color: rgb(0, 0, 0);
+}
+
+.logo img{
+  float: left;
+  width: 150px;
+  height: 150px;
+  padding: 25px;
+}
+
+.main{
+  max-width: 1200px;
+  margin: auto;
+}
+
+.title{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+
+.title h1{
+  color: rgb(134, 247, 70);
+  font-size: 70px;
+  font-family: -apple-system;
+
+}
+
+.button{
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+
+.btn{
+  border: 1px solid #fff;
+  padding: 10px 30px;
+  color: #fff;
+  text-decoration: none;
+
+
+}
+
+.btn:hover{
+  background-color: #fff;
+  color: rgb(0, 0, 0);
+  transition: 0.6s ease;
+}
